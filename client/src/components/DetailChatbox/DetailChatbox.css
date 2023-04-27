@@ -1,0 +1,285 @@
+.chatbox-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .chatbox-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    margin-left: 5rem;
+  }
+  
+  .chatbox-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 1rem;
+    border: none;
+  }
+  
+  .user-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: var(--message-color);
+    width: 134.6rem;
+    margin-left: -30rem;
+    margin-right: -1rem;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 31rem;
+  }
+  
+  .message-text {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178rem;
+    height: 15rem;
+    margin-top: 30rem;
+    margin-left: -20rem;
+    margin-right: -1rem;
+    margin-top: 30rem;
+  }
+  
+  .message-input {
+    width: 90%;
+    resize: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--message-color);
+    color: var(--text-color);
+    margin-left: 35rem;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .send-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .chatbox-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .chatbox-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 1rem 0;
+      margin-left: 1rem;
+    }
+  
+    .chatbox-area {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .conversation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 480px;
+      border-radius: 8px;
+      padding: 1rem;
+      border: none;
+    }
+  
+    .user-message {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      background-color: var(--message-color);
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+  
+    .message-text {
+      font-size: 1rem;
+      margin: 0;
+    }
+  
+    .input-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      margin-left: 0;
+      margin-right: 0;
+      background-color: var(--message-color);
+      margin-top: 1rem;
+    }
+  
+    .message-input {
+      width: 90%;
+      resize: none;
+      border-radius: 4px;
+      padding: 0.5rem;
+      font-size: 1rem;
+      background-color: var(--message-color);
+      color: var(--text-color);
+      margin-left: 0;
+    }
+  
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  
+    .send-icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .chatbox-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .chatbox-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin: 1rem 0;
+      margin-left: 2rem;
+    }
+  
+    .chatbox-area {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .conversation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 768px;
+      border-radius: 8px;
+      padding: 1rem;
+      border: none;
+    }
+  
+    .user-message {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      background-color: var(--message-color);
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+  
+    .message-text {
+      font-size: 1rem;
+      margin: 0;
+    }
+  
+    .input-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      margin-left: 0;
+      margin-right: 0;
+      background-color: var(--message-color);
+      margin-top: 1rem;
+    }
+  
+    .message-input {
+      width: 90%;
+      resize: none;
+      border-radius: 4px;
+      padding: 0.5rem;
+      font-size: 1rem;
+      background-color: var(--message-color);
+      color: var(--text-color);
+      margin-left: 0;
+    }
+  
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  
+    .send-icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }  

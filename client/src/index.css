@@ -1,0 +1,26 @@
+/* Light */
+
+.light {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --border-none: none;
+    --message-color: #ffffff;
+    --chat-color: 1px solid white;
+    --rsp-color: #eeecec;
+  }
+  
+
+  /* Dark */
+
+.dark {
+  --bg-color: rgba(64,65,79, 1);
+  --text-color: #ffffff;
+  --border-none: 1px solid rgba(64,65,79, 1);
+  --message-color: rgba(52, 53, 65, 1);
+  --chat-color: 1px solid white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
